@@ -159,7 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "tag=$(/usr/bin/uuidgen)\nmv /Users/keith/Library/Quicklook/MarkdownQuickLook.qlgenerator /Users/keith/.Trash/MarkdownQuickLook.qlgenerator${tag}\ncp -r \"${BUILT_PRODUCTS_DIR}/MarkdownQuickLook.qlgenerator\" /Users/keith/Library/Quicklook\n/usr/bin/qlmanage -r\n";
+			shellScript = "tag=$(/usr/bin/uuidgen)\nmv ${HOME}/Library/Quicklook/MarkdownQuickLook.qlgenerator ${HOME}/.Trash/MarkdownQuickLook.qlgenerator${tag}\ncp -r \"${BUILT_PRODUCTS_DIR}/MarkdownQuickLook.qlgenerator\" ${HOME}/Library/Quicklook\n/usr/bin/qlmanage -r\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
