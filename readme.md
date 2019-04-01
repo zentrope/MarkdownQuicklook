@@ -4,10 +4,21 @@
 
 This is my own personal plugin for Quicklook viewing Markdown text files. It doesn't add anything to the other versions floating around out there. My version, though, is just the way I like it and easy (for me) to change.
 
-This version converts text to HTML using JavaScript libraries. It also highlights syntax. I haven't figured out how to get it to render relative images yet.
+## Features
 
-It previews using Github's CSS, which is all-around fine for the kinds of documents I have in Markdown.
+- Renders Markdown files using Github's readme.md file style sheets
+- Automatically highlights code blocks
 
+## What's missing
+
+- Doesn't provide thumbnails
+- Doesn't detect if a file ending in `.txt` is actually a markdown file
+- Doesn't properly render images using relative URLs
+- Doesn't allow you to swap out the CSS stylesheet if you want something different
+
+## Releases
+
+* [https://github.com/zentrope/MarkdownQuicklook/releases](https://github.com/zentrope/MarkdownQuicklook/releases)
 
 ## License
 
